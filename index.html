@@ -1,46 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Cookbook</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <h1 class="logo">MySite</h1>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <h1>🍳 My Cookbook</h1>
+    <p>Browse and cook your favourite meals</p>
+  </header>
 
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h2>Welcome to My Website</h2>
-            <p>This is a simple base template you can customize freely.</p>
-            <a href="#about" class="btn">Learn More</a>
-        </div>
+  <main>
+    <section class="recipe-grid">
+      <a href="recipes/spaghetti.html" class="recipe-card">
+        <img src="https://images.unsplash.com/photo-1603133872878-684f2fbe1e9d" alt="Spaghetti Bolognese">
+        <h2>Spaghetti Bolognese</h2>
+      </a>
+
+      <a href="recipes/pancakes.html" class="recipe-card">
+        <img src="https://images.unsplash.com/photo-1587731087416-21bff2a0b1e1" alt="Classic Pancakes">
+        <h2>Classic Pancakes</h2>
+      </a>
+
+      <a href="recipes/caesar-salad.html" class="recipe-card">
+        <img src="https://images.unsplash.com/photo-1550304943-4f24f54ddde9" alt="Caesar Salad">
+        <h2>Caesar Salad</h2>
+      </a>
     </section>
+  </main>
 
-    <section id="about" class="section">
-        <h2>About</h2>
-        <p>
-            This website is hosted using <strong>GitHub Pages</strong>.
-            You can edit the HTML and CSS to add more content or change the design.
-        </p>
-    </section>
-
-    <section id="contact" class="section">
-        <h2>Contact</h2>
-        <p>Feel free to reach out via <a href="mailto:example@email.com">email</a>.</p>
-    </section>
-
-    <footer>
-        <p>© 2025 MySite — All rights reserved.</p>
-    </footer>
+  <footer>
+    <p>© 2025 My Cookbook | Made with ❤️ and GitHub Pages</p>
+  </footer>
 </body>
 </html>
